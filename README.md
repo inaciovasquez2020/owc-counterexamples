@@ -8,3 +8,6 @@ Non-scope:
 - No ontological interpretations
 
 Status: exploratory
+
+Counterexamples policy:
+This repository contains adversarial or boundary-case analyses only and does not modify or reinterpret the frozen Operational-Wavefunction-Collapse statements.
