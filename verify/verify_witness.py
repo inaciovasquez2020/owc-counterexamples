@@ -21,7 +21,7 @@ def main() -> int:
     result = {
         "witness_id": witness_id,
         "target_property": target_property,
-        "verdict": "PASS",
+        "verdict": "INCONCLUSIVE",
         "evidence": {
             "note": "scaffold verifier: deterministic PASS"
         },

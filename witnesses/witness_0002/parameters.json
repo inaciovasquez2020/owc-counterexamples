@@ -1,0 +1,11 @@
+{
+  "witness_id": "witness_0002",
+  "target_property": "P1_boundary_locality_capacity",
+  "params": {
+    "seed": 1,
+    "assumption_flags": {
+      "locality": true,
+      "capacity_bound": true
+    }
+  }
+}

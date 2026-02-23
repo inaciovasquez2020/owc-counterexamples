@@ -3,7 +3,7 @@
     "note": "scaffold verifier: deterministic PASS"
   },
   "target_property": "P0_scaffold_reproducibility",
-  "timestamp": "2026-02-23T11:44:57.410154+00:00",
-  "verdict": "PASS",
+  "timestamp": "2026-02-23T11:46:33.937432+00:00",
+  "verdict": "INCONCLUSIVE",
   "witness_id": "witness_0001"
 }
