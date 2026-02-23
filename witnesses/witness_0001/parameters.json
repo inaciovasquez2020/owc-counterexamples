@@ -1,0 +1,7 @@
+{
+  "witness_id": "witness_0001",
+  "target_property": "P0_scaffold_reproducibility",
+  "params": {
+    "seed": 0
+  }
+}

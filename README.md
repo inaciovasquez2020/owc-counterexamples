@@ -1,13 +1,22 @@
-OWC Counterexamples
+# OWC Counterexamples
 
-Scope:
-Adversarial and boundary cases against candidate operational wavefunction collapse claims.
+Canonical counterexamples and boundary constructions for OWC-style claims.
 
-Non-scope:
-- No modification of the frozen Operational-Wavefunction-Collapse core repository
-- No ontological interpretations
+## Repo goals
+- Store explicit witnesses (constructors + parameters)
+- Provide verifiers that check a witness against a stated target property
+- Keep results reproducible via CI
 
-Status: exploratory
+## Structure
+- docs/ : specification + policy
+- witnesses/ : explicit witness constructions
+- verify/ : verification scripts + tests
+- metrics/ : summaries produced by verification runs
 
-Counterexamples policy:
-This repository contains adversarial or boundary-case analyses only and does not modify or reinterpret the frozen Operational-Wavefunction-Collapse statements.
+## Quickstart
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -U pip
+pip install -r requirements.txt
+pytest -q
+python verify/verify_witness.py witnesses/witness_0001/parameters.json
