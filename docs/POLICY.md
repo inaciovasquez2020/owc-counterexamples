@@ -10,3 +10,9 @@ This repository contains adversarial examples, boundary constructions, and verif
 ## Reproducibility
 - All verifiers must run non-interactively.
 - CI must execute the verifier on the canonical witness set.
+
+## Classification requirement
+Every witness MUST include CLASSIFICATION.md declaring:
+- boundary vs counterexample
+- scope of violation
+- whether core claims are affected
