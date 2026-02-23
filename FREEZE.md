@@ -21,3 +21,8 @@ Disallowed changes:
 Rationale:
 This repository serves as a bounded, reviewer-safe counterexample
 and boundary suite for OWC-related claims.
+
+CI Policy:
+- CI runs are expected to remain green.
+- New CI failures are treated as regressions.
+- No feature-driven CI changes permitted post-freeze.
