@@ -1,3 +1,5 @@
+**Status:** Frozen (see FREEZE.md)
+
 # OWC Counterexamples
 
 Canonical counterexamples and boundary constructions for OWC-style claims.
